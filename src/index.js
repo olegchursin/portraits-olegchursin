@@ -1,8 +1,8 @@
-import React, { useState, useCallback } from "react";
-import { render } from "react-dom";
-import Gallery from "react-photo-gallery";
-import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "./photos";
+import React, { useState, useCallback } from 'react';
+import { render } from 'react-dom';
+import Gallery from 'react-photo-gallery';
+import Carousel, { Modal, ModalGateway } from 'react-images';
+import { photos } from './photos';
 
 function App() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -18,8 +18,18 @@ function App() {
     setViewerIsOpen(false);
   };
 
+  const styles = {
+    wrapper: {
+      backgroundColor: '#222222',
+      padding: '40px',
+      fontFamily: 'Roboto Mono',
+      color: '#fff'
+    }
+  };
+
   return (
-    <div>
+    <div style={styles.wrapper}>
+      <h1>Oleg Chursin - Portaits</h1>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
@@ -38,4 +48,4 @@ function App() {
     </div>
   );
 }
-render(<App />, document.getElementById("app"));
+render(<App />, document.getElementById('app'));

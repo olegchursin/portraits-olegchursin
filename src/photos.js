@@ -1,46 +1,92 @@
 export const photos = [
   {
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-008w.jpg',
+    width: 3,
+    height: 3.8
+  },
+
+  {
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-002w.jpg',
     width: 4,
-    height: 3
+    height: 2.7
   },
   {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-010w.jpg',
+    width: 3,
+    height: 3.8
+  },
+  {
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-003w.jpg',
+    width: 4,
+    height: 2.7
+  },
+  {
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-014w.jpg',
+    width: 2.8,
+    height: 4.2
+  },
+  {
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-004w.jpg',
+    width: 3,
+    height: 3.8
+  },
+  {
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-005w.jpg',
+    width: 4,
+    height: 2.7
+  },
+  {
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-009w.jpg',
+    width: 4.2,
+    height: 2.8
+  },
+  {
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-006w.jpg',
+    width: 3.8,
+    height: 3
+  },
+
+  {
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-016w.jpg',
+    width: 3,
+    height: 3.8
+  },
+
+  {
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-011w.jpg',
     width: 1,
     height: 1
   },
   {
-    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-012w.jpg',
+    width: 4.2,
+    height: 2.8
+  },
+  {
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-001w.jpg',
     width: 3,
-    height: 4
+    height: 4.5
   },
   {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-013w.jpg',
+    width: 4.2,
+    height: 2.8
+  },
+
+  {
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-007w.jpg',
     width: 3,
-    height: 4
+    height: 3.8
   },
+
   {
-    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-    width: 3,
-    height: 4
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-015w.jpg',
+    width: 4.2,
+    height: 2.8
   },
+
   {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+    src: 'https://olegchursin.s3.amazonaws.com/oleg-chursin-portraits-017w.jpg',
     width: 4,
     height: 3
   }
